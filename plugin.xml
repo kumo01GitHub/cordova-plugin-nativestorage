@@ -39,6 +39,7 @@
         </config-file>
         <header-file src="src/ios/NativeStorage.h"/>
         <source-file src="src/ios/NativeStorage.m"/>
+        <resource-file src="src/ios/NativeStorage.bundle" target="NativeStorage.bundle" />
     </platform>
 
     <!-- Browser -->
