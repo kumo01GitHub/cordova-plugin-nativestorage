@@ -1,5 +1,5 @@
 {
-    "name": "@pericanus/cordova-plugin-nativestorage",
+    "name": "@pelecanus/cordova-plugin-nativestorage",
     "version": "1.0.0-2.3.2",
     "description": "Native storage of variables in Android, iOS and Windows",
     "author": "Gilles Callebaut <callebaut.gilles@gmail.com>",
