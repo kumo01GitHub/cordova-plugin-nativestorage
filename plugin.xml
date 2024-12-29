@@ -29,17 +29,16 @@
         <source-file src="src/android/Crypto.java" target-dir="src/" />
     </platform>
 
-
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="NativeStorage">
-                <param name="ios-package" value="NativeStorage"/>
+                <param name="ios-package" value="CDVNativeStorage"/>
             </feature>
         </config-file>
-        <header-file src="src/ios/NativeStorage.h"/>
-        <source-file src="src/ios/NativeStorage.m"/>
-        <resource-file src="src/ios/NativeStorage.bundle" target="NativeStorage.bundle" />
+        <source-file src="src/ios/CDVNativeStorage.swift"/>
+        <resource-file src="src/ios/CDVNativeStorage.bundle" target="CDVNativeStorage.bundle" />
+        <dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>
     </platform>
 
     <!-- Browser -->
